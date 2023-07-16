@@ -12,3 +12,6 @@ jobs:
 
       - name: Run a one-line script
         run: ls -l
+      
+      - name: Show file contents
+        run: cat some-file
